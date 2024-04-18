@@ -1,0 +1,4 @@
+Host: 162.241.61.240	
+Usuario: acabad18_admin	
+Contraseña: BX2VB#mlAKVK
+Nombre de la base de datos: acabad18_db	

@@ -1,0 +1,605 @@
+/*------------Global styles--------------*/
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+    background-color: white;
+}
+
+button{
+    padding: 15px 20px;
+    background-color: #b4930f;
+    margin-bottom: 40px;
+    cursor:pointer;
+    font-weight: bold;
+    font-size: 17px;
+    border-radius: 10px;    
+}
+
+input{
+    border-radius: 7px;
+}
+
+.height-login{
+    height: 600px;
+}
+
+.margin-top-cards{
+    margin-top: 100px;
+}
+
+.telefono-link a{
+    color: black;
+}
+
+.ingreso{
+    color: green;
+}
+
+.egreso{
+    color: red;
+}
+
+.bad{
+    text-align: center;
+    color: red;
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+.title{
+    text-align: center;
+    padding-top: 90px;
+}
+
+.img-bg {
+    background-color: black;
+    width: 100%;
+    height: 50px;
+}
+
+.addIngreso{
+    width: 30%;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.addIngreso input{
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 10px 20px;
+}
+
+.addIngreso .button{
+    background-color: #b4930f;
+    cursor: pointer;
+}
+
+.bg-gray{
+    background-color: #bdbab8;
+}
+
+.contabilidad{
+    height: 650px;
+
+}
+
+.bg-img-body{
+    background-image: url("../imgs/bg_accounting.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cards{
+    height: 650px;
+    width: 75%;
+    margin: auto;
+}
+
+.card-accounting{
+    width: 45%;
+    background-image: url("../imgs/Account_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px;
+    border: 2px solid black;
+    margin: auto;
+    float: left;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-right: 5%;
+}
+
+.card-accounting a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    padding: 70px 20px;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    padding-top: 14px;
+    font-size: 24px;
+}
+
+.header-back{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+
+.header-back img{
+    padding-top: 15px;
+    padding-left: 20px;
+    height: 35px;
+}
+
+.container-ingresos{
+    text-align: center;
+    margin: auto; 
+    padding-top: 30px;
+    margin-top: 50px;
+    width: 90%;
+    height: 830px;
+}
+
+.container-home{
+    text-align: center;
+    margin: auto; 
+    padding-top: 0px;
+    margin: auto;
+    width: 90%;
+    height: 760px;
+}
+
+.container-ingresos h1{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.container-ingresos section{
+    height: 140px;
+}
+
+.a-button{
+    padding: 15px 60px;
+    background-color: #b4930f;
+    border: 2px solid black;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+/*------------Table Responsive styles--------------*/
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-weight: bold;
+}
+
+.table-responsive {
+    height: 630px;
+    width: 100%;
+    margin: auto;
+    overflow-y: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.bg-deep {
+    background-color: black;
+    color: #b4930f;
+}
+
+.value {
+    padding: 10px 55px;
+}
+
+.descrip {
+    padding: 10px 150px;
+}
+
+.date {
+    padding: 10px 80px;
+}
+
+.edit {
+    padding: 10px 20px;
+}
+
+.delete {
+    padding: 10px 20px;
+}
+
+/*------------NavBar styles--------------*/
+header {
+    background-color: black;
+    position: absolute;
+    top: 0;
+    font-weight: 500;
+    width: 100%;
+    height: 59px;
+}
+
+header nav ul {
+    padding-left: 3%;
+    padding-right: 50px;
+    list-style: none;
+}
+
+header nav ul li {
+    float: left;
+}
+
+header nav ul li a {
+    display: block;
+    padding: 20px;
+    color: #bdbab8;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    background-color: #bdbab8;
+    color: black;
+}
+
+.menu-fixed {
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    opacity: 90%;
+}
+
+.menu-fixed ul li a {
+    color: white;
+}
+
+.menu-fixed ul li a:hover {
+    background-color: #bdbab8;
+    color: black;
+}
+
+.nav-toggle {
+    background: none;
+    border: none;
+    padding: 10px;
+    display: none;
+    height: 0px;
+}
+
+.img-menu-button {
+    width: 30px;
+}
+
+.img-logo-navbar {
+    margin: auto;
+    float: right;
+    padding-right: 110px;
+}
+
+.img-logo-navbar img {
+    width: 100px;
+    padding-top: 5px;
+}
+
+.selected-item {
+    background-color: #bdbab8;
+    color: black;
+}
+
+/*Content styles*/
+.banner-principal {
+    background-image: url(../imgs/Banner_Principal.png);
+    height: 320px;
+    background-repeat: no-repeat;
+}
+
+.banner-principal div {
+    width: 30%;
+    margin: auto;
+}
+
+.logo-principal-banner {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.header-main{
+    text-align: center;
+    font-size: 24px;
+    padding: 0px 30px;
+    padding-bottom: 20px;
+}
+
+/*Buttons styles*/
+.buttons{        
+    width: 95%;        
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+/*Log-in styles*/
+.log-in{
+    width: 35%;
+    margin: auto;
+    margin-top: 45px;
+}
+
+.inputs{
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 8px 20px;
+    color: black;
+    background-color: #bdbab8;
+}
+
+.button-input{
+    width: 100%;
+    padding: 10px;
+    background-color: #b4930f;
+    cursor: pointer;
+}
+
+::placeholder {
+    color: black;
+    opacity: 0.9;
+}
+
+/*-------------------MediaQuery-----------------*/
+@media (min-width: 901px) and (max-width: 1048px) {
+
+    /*NavBar styles*/
+    .img-logo-navbar {
+        padding: 0px;
+    }
+
+    .img-logo-navbar img {
+        width: 0px;
+    }
+
+    .addIngreso{
+        width: 50%;
+    }
+
+    .contabilidad{
+        height: 650px;
+    }
+
+    .cards{
+        width: 90%;
+        margin: auto;
+    }
+
+    .card-accounting{
+        width: 45%;
+        margin: auto;
+        margin-bottom: 30px;
+        margin-right: 5%;
+    }
+
+    /*Content styles*/
+    .banner-principal div {
+        width: 45%;
+    }
+
+    /*Log-in styles*/
+    .log-in{
+        width: 50%;
+    }
+}
+
+
+/*-------------------MediaQuery-----------------*/
+@media (min-width: 481px) and (max-width: 900px) {
+
+    /*NavBar styles*/
+    header {
+        padding: 0px;
+    }
+
+    header nav {
+        background-color: black;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header nav ul {
+        padding-right: 0px;
+        list-style: none;
+        overflow: hidden;
+        display: none;
+    }
+
+    header nav ul li {
+        float: none;
+    }
+
+    header nav ul li a {
+        display: block;
+        padding: 20px;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    .nav-toggle {
+        display: block;
+    }
+
+    .nav-menu {
+        padding: 0px;
+    }
+
+    .nav-menu_visible {
+        display: block;
+    }
+
+    .img-logo-navbar {
+        padding: 0px;
+    }
+
+    .img-logo-navbar img {
+        width: 0px;
+    }
+
+    .addIngreso{
+        width: 70%;
+    }
+
+    .contabilidad{
+        height: 1080px;
+    }
+
+    .cards{
+        width: 60%;
+    }
+
+    .card-accounting{
+        width: 100%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    /*Content styles*/
+    .banner-principal div {
+        width: 50%;
+    }
+
+    /*Log-in styles*/
+    .log-in{
+        width: 60%;
+    }
+}
+
+/*-------------------MediaQuery-----------------*/
+@media (max-width: 650px) {
+
+    /*Content styles*/
+    .banner-principal div {
+        width: 65%;
+    }
+    
+    .contabilidad{
+        height: 1090px;
+    }
+    
+    .cards{
+        width: 60%;
+    }
+
+    .card-accounting{
+        width: 100%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+}
+
+
+/*-------------------MediaQuery-----------------*/
+@media (max-width: 480px) {
+
+    /*NavBar styles*/
+    header {
+        padding: 0px;
+    }
+
+    header nav {
+        background-color: black;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header nav ul {
+        padding-right: 0px;
+        list-style: none;
+        overflow: hidden;
+        display: none;
+    }
+
+    header nav ul li {
+        float: none;
+    }
+
+    header nav ul li a {
+        display: block;
+        padding: 20px;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    .nav-toggle {
+        display: block;
+    }
+
+    .nav-menu {
+        padding: 0px;
+    }
+
+    .nav-menu_visible {
+        display: block;
+    }
+
+    .img-logo-navbar {
+        padding: 0px;
+    }
+
+    .img-logo-navbar img {
+        width: 0px;
+    }
+
+    .addIngreso{
+        width: 85%;
+    }
+
+    .contabilidad{
+        height: 1090px;
+    }
+
+    .cards{
+        width: 80%;
+    }
+
+    .card-accounting{
+        width: 100%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    /*Content styles*/
+    .banner-principal div {
+        width: 80%;
+    }
+
+    /*Log-in styles*/
+    .log-in{
+        width: 80%;
+    }
+
+}

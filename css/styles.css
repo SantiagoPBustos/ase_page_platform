@@ -1,0 +1,1011 @@
+/*------------Global styles--------------*/
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+
+}
+
+.text-gold {
+    color: #b4930f;
+}
+
+.line-black {
+    border-bottom: 2px solid black;
+    margin: 20px 400px;
+}
+
+.margin--zero {
+    margin: 0px;
+}
+
+.principal-banner {
+    margin-top: 90px;
+    background-color: #bdbab8;
+    width: 100%;
+    height: 90px;
+    margin-bottom: 40px;
+}
+
+.principal-banner .background {
+    background-image: url(../media/imgs/jobs/MetalicBackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90px;
+}
+
+.shadow {
+    -moz-box-shadow: 3px 3px 5px 6px black;
+    -webkit-box-shadow: 3px 3px 5px 6px black;
+    box-shadow: 3px 3px 5px 8px #bdbab8;
+}
+
+.background h1 {
+    color: #bdbab8;
+    color: white;
+    font-size: 38px;
+    font-weight: bold;
+    padding-top: 18px;
+}
+
+.bg-gray {
+    background-color: #bdbab8;
+}
+
+.reverse-colors {
+    background-color: black;
+    color: white;
+    padding-top: 25px;
+    height: 500px;
+}
+
+.reverse-colors .line-black {
+    border-color: white;
+}
+
+/*------------NavBar styles--------------*/
+header {
+    background-color: black;
+    position: absolute;
+    top: 0;
+    font-weight: 500;
+    width: 100%;
+}
+
+header nav ul {
+    padding-left: 3%;
+    padding-right: 50px;
+    list-style: none;
+}
+
+header nav ul li {
+    float: left;
+}
+
+header nav ul li a {
+    display: block;
+    padding: 20px;
+    color: #bdbab8;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    background-color: #bdbab8;
+    color: black;
+}
+
+.menu-fixed {
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    opacity: 90%;
+}
+
+.menu-fixed ul li a {
+    color: white;
+}
+
+.menu-fixed ul li a:hover {
+    background-color: #bdbab8;
+    color: black;
+}
+
+.nav-toggle {
+    background: none;
+    border: none;
+    padding: 10px;
+    line-height: 10px;
+    display: none;
+}
+
+.img-menu-button {
+    width: 30px;
+}
+
+.img-logo-navbar {
+    margin: auto;
+    float: right;
+    padding-right: 110px;
+}
+
+.img-logo-navbar img {
+    width: 100px;
+    padding-top: 5px;
+}
+
+.selected-item {
+    background-color: #bdbab8;
+    color: black;
+}
+
+/*------------Content styles--------------*/
+.curved {
+    width: 100%;
+    margin-top: 60px;
+    color: white;
+    position: relative;
+    background: black;
+    height: 420px;
+    border-bottom-left-radius: 50% 25%;
+    border-bottom-right-radius: 50% 25%;
+}
+
+.curved .logo {
+    width: 300px;
+    margin: 50px;
+    margin-left: 240px;
+    margin-bottom: 2px;
+}
+
+.curved .text {
+    width: 35%;
+    margin-left: 240px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.curved .buttons {
+    margin-top: 50px;
+    margin-left: 300px;
+}
+
+.curved a {
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-right: 70px;
+    border-radius: 5px;
+    background-color: #b4930f;
+    color: black;
+    font-weight: bold;
+}
+
+.title-seccion {
+    margin: auto;
+    width: 90%;
+    font-weight: bold;
+}
+
+.title-seccion h1 {
+    font-weight: bold;
+}
+
+
+/*------------Swiper Jobs styles--------------*/
+.cont-swiper {
+    width: 100%;
+    height: 250px;
+    background-color: white;
+    margin-top: 30px;
+}
+
+.jobs {
+    width: 100%;
+    height: 280px;
+}
+
+.container-jobs {
+    margin: auto;
+    width: 90%;
+    padding: 25px 40px;
+}
+
+.container-jobs .swiper {
+    width: 80%;
+    height: 80%;
+}
+
+.container-jobs .swiper-slide {
+    position: relative;
+    text-align: start;
+    font-size: 18px;
+    border-radius: 15px;
+    padding-left: 8%;
+}
+
+.swiper-slide img {
+    display: block;
+    height: 160px;
+    object-fit: cover;
+}
+
+.cont-aboutUS {
+    width: 100%;
+    height: 350px;
+    background-color: black;
+    color: #bdbab8;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+
+.title-AboutUS {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.container-aboutUS {
+    padding-top: 30px;
+    margin: auto;
+    width: 70%;
+    height: 350px;
+}
+
+.cont-first-AboutUS {
+    margin: auto;
+    float: left;
+    width: 33%;
+    text-align: justify;
+    padding: 20px;
+    border-right: 2px solid #b4930f;
+    height: 200px;
+}
+
+.cont-second-AboutUS {
+    margin: auto;
+    float: left;
+    width: 33%;
+    text-align: center;
+    padding: 20px;
+    border-right: 2px solid #b4930f;
+    height: 200px;
+}
+
+.cont-third-AboutUS {
+    margin: auto;
+    float: left;
+    width: 33%;
+    text-align: center;
+    padding: 20px;
+    height: 200px;
+}
+
+.cont-jobs {
+    width: 100%;
+    height: 480px;
+    padding-top: 30px;
+    margin-top: 50px;
+}
+
+/*------------Slide Jobs styles--------------*/
+.container-jobs-slide {
+    width: 70%;
+    margin: auto;
+    height: 360px;
+}
+
+.cont-slipe {
+    width: 55%;
+    margin: auto;
+    float: left;
+    background-color: black;
+    height: 360px;
+}
+
+.descripcion-jobs {
+    width: 45%;
+    float: left;
+    margin: auto;
+    height: 360px;
+    text-align: center;
+    padding: 30px;
+}
+
+.descripcion-jobs p {
+    font-size: 21px;
+    color: #b4930f;
+    padding: 20px;
+    padding-top: 40px;
+}
+
+.swiper-slide-jobs {
+    width: 100%;
+    height: 360px;
+}
+
+.swiper-slide-img img {
+    width: 100%;
+    height: 360px;
+}
+
+.swiper .swiper-button-prev,
+.swiper .swiper-button-next {
+    color: #b4930f;
+}
+
+.swiper .swiper-pagination-bullet-active {
+    background: #b4930f;
+}
+
+/*------------Footer styles--------------*/
+.footer {
+    width: 100%;
+    height: 100%;
+    padding: 25px;
+    background-color: black;
+}
+
+.cont-logo-footer {
+    width: 140px;
+}
+
+.cont-contact {
+    width: 100%;
+    height: 140px;
+    border-top: 2px solid white;
+    padding: 20px;
+    background-color: black;
+}
+
+.contact-seccion {
+    margin: auto;
+    width: 50%;
+    color: #bdbab8;
+    float: left;
+}
+
+.contact-seccion a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #bdbab8;
+}
+
+.contact-first-seccion {
+    height: 100px;
+    border-right: 2px solid white;
+    text-align: center;
+}
+
+.contact-second-seccion {
+    height: 100px;
+}
+
+.contact-second-seccion {
+    text-align: center;
+}
+
+.size-icon {
+    width: 22px;
+    height: 22px;
+    margin: 3px 5px 0px 5px;
+    padding: 1px;
+}
+
+.cont-copyrigth {
+    width: 100%;
+    height: 100%;
+    border-top: 2px solid white;
+    color: #bdbab8;
+}
+
+.cont-copyrigth p {
+    text-align: justify;
+}
+
+.cont-copyrigth a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #b4930f;
+}
+
+
+/* Estilos del botón de WhatsApp */
+.whatsapp-btn {
+    position: fixed;
+    bottom: 60px;
+    right: 60px;
+    z-index: 100000;
+}
+
+.popup {
+    display: block;
+    position: fixed;
+    bottom: 60px;
+    right: 120px;
+    background-color: white;
+    color: #000;
+    padding: 10px 10px;
+    border-radius: 15px;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.8);
+    z-index: 1;
+    max-width: 100%;
+    text-align: center;
+    border: 2px solid #32D951;
+    z-index: 100000;
+}
+
+.whatsapp-btn a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.8);
+}
+
+.whatsapp-btn img {
+    width: 53px;
+    height: 53px;
+}
+
+/*-------------------MediaQuery-----------------*/
+@media (min-width: 901px) and (max-width: 1048px) {
+
+    .line-black {
+        margin: 20px 300px;
+    }
+
+    .margin-top {
+        margin-top: 120px;
+    }
+
+    /*Content styles*/
+    .curved .logo {
+        width: 370px;
+        margin-left: 280px;
+    }
+
+    .curved .text {
+        width: 40%;
+        margin-left: 280px;
+    }
+
+    .curved .buttons {
+        margin-top: 50px;
+        margin-left: 280px;
+    }
+
+    /*NavBar styles*/
+    .img-logo-navbar {
+        padding: 0px;
+    }
+
+    .img-logo-navbar img {
+        width: 0px;
+    }
+
+    /*AboutUS styles*/
+    .container-aboutUS {
+        padding-top: 30px;
+        margin: auto;
+        width: 85%;
+        height: 350px;
+    }
+
+    /*Slide styles*/
+    .cont-slipe {
+        width: 80%;
+        float: none;
+    }
+
+    .descripcion-jobs {
+        width: 100%;
+        height: 130px;
+        padding: 50px;
+        padding-top: 10px;
+    }
+
+    .descripcion-jobs p {
+        padding-top: 10px;
+    }
+
+    .cont-jobs {
+        height: 600px;
+    }
+
+    /*Footer styles*/
+    .cont-logo {
+        height: 520px;
+    }
+
+    .contact-first-seccion {
+        border: none;
+        border-right: 2px solid white;
+        margin-bottom: 20px;
+    }
+
+    .contact-second-seccion {
+        width: 50%;
+    }
+
+    .contact-third-seccion {
+        width: 50%;
+    }
+}
+
+/*-------------------MediaQuery-----------------*/
+@media (min-width: 481px) and (max-width: 900px) {
+
+    .line-black {
+        margin: 20px 200px;
+    }
+
+    .margin-top {
+        margin-top: 130px;
+        margin-bottom: 120px;
+    }
+
+    /*Content styles*/
+    .curved .logo {
+        width: 300px;
+        margin-left: 150px;
+    }
+
+    .curved .text {
+        width: 60%;
+        margin-left: 150px;
+    }
+
+    .curved .buttons {
+        margin-top: 50px;
+        margin-left: 150px;
+    }
+
+    /*NavBar styles*/
+    header {
+        padding: 0px;
+    }
+
+    header nav {
+        background-color: black;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header nav ul {
+        padding-right: 0px;
+        list-style: none;
+        overflow: hidden;
+        display: none;
+    }
+
+    header nav ul li {
+        float: none;
+    }
+
+    header nav ul li a {
+        display: block;
+        padding: 20px;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    .nav-toggle {
+        display: block;
+    }
+
+    .nav-menu {
+        padding: 0px;
+    }
+
+    .nav-menu_visible {
+        display: block;
+        height: 100px;
+    }
+
+    .img-logo-navbar {
+        padding: 0px;
+    }
+
+    .img-logo-navbar img {
+        width: 0px;
+    }
+
+    /*AboutUS styles*/
+    .cont-aboutUS {
+        height: 600px;
+    }
+
+    .cont-first-AboutUS {
+        width: 100%;
+        height: 170px;
+        border: none;
+        border-bottom: 2px solid #b4930f;
+    }
+
+    .cont-second-AboutUS {
+        width: 100%;
+        height: 160px;
+        border: none;
+        border-bottom: 2px solid #b4930f;
+    }
+
+    .cont-third-AboutUS {
+        width: 100%;
+        height: 160px;
+        border-bottom: 2px solid #b4930f;
+    }
+
+    /*Slide styles*/
+
+    /*Slide styles*/
+    .cont-slipe {
+        width: 80%;
+        float: none;
+    }
+
+    .descripcion-jobs {
+        width: 100%;
+        height: 160px;
+        padding: 50px;
+        padding-top: 10px;
+    }
+
+    .container-jobs-slide {
+        width: 85%;
+    }
+
+    .descripcion-jobs p {
+        padding-top: 10px;
+    }
+
+    .cont-jobs {
+        height: 600px;
+    }
+
+    /*Footer styles*/
+    .footer {
+        height: 100%;
+    }
+
+    .cont-contact {
+        height: 280px;
+    }
+
+    .contact-first-seccion {
+        width: 100%;
+        height: 130px;
+        border: none;
+        border-bottom: 2px solid white;
+        margin-bottom: 20px;
+    }
+
+    .contact-second-seccion {
+        width: 100%;
+    }
+
+    .contact-third-seccion {
+        width: 0%;
+    }
+
+    .curved {
+        margin-top: 48px;
+    }
+
+    .whatsapp-btn {
+        bottom: 30px;
+        right: 30px;
+    }
+
+    .popup {
+        bottom: 30px;
+        right: 90px;
+    }
+}
+
+/*-------------------MediaQuery-----------------*/
+@media (max-width: 650px) {
+
+    /*Content styles*/
+    .curved .logo {
+        width: 250px;
+        margin-left: 100px;
+    }
+
+    .curved .text {
+        width: 70%;
+        margin-left: 100px;
+    }
+
+    .curved .buttons {
+        margin-top: 40px;
+        margin-left: 90px;
+    }
+
+    .curved a {
+        margin-right: 30px;
+    }
+
+    .swiper-slide img {
+        margin-left: 7%;
+    }
+
+    .margin-top {
+        margin-top: 130px;
+        margin-bottom: 120px;
+    }
+
+    /*AboutUS styles*/
+    .cont-aboutUS {
+        height: 660px;
+    }
+
+    .cont-first-AboutUS {
+        width: 100%;
+        height: 190px;
+        border: none;
+        border-bottom: 2px solid #b4930f;
+    }
+
+    .cont-second-AboutUS {
+        width: 100%;
+        height: 180px;
+        border: none;
+        border-bottom: 2px solid #b4930f;
+    }
+
+    .cont-third-AboutUS {
+        width: 100%;
+        height: 180px;
+        border-bottom: 2px solid #b4930f;
+    }
+
+    /*Slide styles*/
+    .cont-slipe {
+        width: 100%;
+        height: 260px;
+    }
+
+    .descripcion-jobs {
+        width: 100%;
+        height: 160px;
+    }
+
+    .container-jobs-slide {
+        width: 90%;
+    }
+
+    .cont-jobs {
+        height: 550px;
+    }
+
+    .swiper-slide-jobs {
+        height: 260px;
+    }
+
+    .swiper-slide img {
+        margin: 0px;
+        height: 160px;
+    }
+
+    .swiper-slide-img img {
+        margin: 0px;
+        width: 100%;
+        height: 260px;
+    }
+
+    /*Footer Styles*/
+    .footer {
+        height: 100%;
+    }
+
+    .curved {
+        margin-top: 48px;
+    }
+
+    .whatsapp-btn {
+        bottom: 30px;
+        right: 30px;
+    }
+
+    .popup {
+        bottom: 30px;
+        right: 90px;
+    }
+}
+
+/*-------------------MediaQuery-----------------*/
+@media (max-width: 480px) {
+
+    .line-black {
+        margin: 20px 100px;
+    }
+
+    .margin-top {
+        margin-top: 130px;
+        margin-bottom: 120px;
+    }
+
+    .curved {
+        margin-top: 48px;
+    }
+
+    /*Content styles*/
+    .curved .logo {
+        width: 230px;
+        margin-left: 60px;
+    }
+
+    .curved .text {
+        width: 80%;
+        margin-left: 50px;
+    }
+
+    .curved .buttons {
+        margin-top: 80px;
+        margin-left: 30px;
+    }
+
+    .curved a {
+        margin-right: 10px;
+    }
+
+    /*NavBar styles*/
+    header {
+        padding: 0px;
+    }
+
+    header nav {
+        background-color: black;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header nav ul {
+        padding-right: 0px;
+        list-style: none;
+        overflow: hidden;
+        display: none;
+    }
+
+    header nav ul li {
+        float: none;
+    }
+
+    header nav ul li a {
+        display: block;
+        padding: 20px;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    .nav-toggle {
+        display: block;
+    }
+
+    .nav-menu {
+        padding: 0px;
+    }
+
+    .nav-menu_visible {
+        display: block;
+    }
+
+    .img-logo-navbar {
+        padding: 0px;
+    }
+
+    .img-logo-navbar img {
+        width: 0px;
+    }
+
+    /*AboutUS styles*/
+    .cont-aboutUS {
+        height: 780px;
+    }
+
+    .cont-first-AboutUS {
+        width: 100%;
+        height: 240px;
+        border: none;
+        border-bottom: 2px solid #b4930f;
+    }
+
+    .cont-second-AboutUS {
+        width: 100%;
+        height: 220px;
+        border: none;
+        border-bottom: 2px solid #b4930f;
+    }
+
+    .cont-third-AboutUS {
+        width: 100%;
+        height: 220px;
+        border-bottom: 2px solid #b4930f;
+    }
+
+    /*Slide styles*/
+    .cont-slipe {
+        width: 100%;
+        height: 240px;
+    }
+
+    .descripcion-jobs {
+        width: 100%;
+        height: 160px;
+    }
+
+    .container-jobs-slide {
+        width: 90%;
+    }
+
+    .cont-jobs {
+        height: 630px;
+    }
+
+    .swiper-slide img {
+        margin: 0px;
+        height: 160px;
+    }
+
+    .swiper-slide-img img {
+        margin: 0px;
+        width: 100%;
+        height: 260px;
+    }
+
+    /*Footer styles*/
+    .footer {
+        height: 100%;
+        text-align: center;
+    }
+
+    .cont-contact {
+        height: 280px;
+        text-align: center;
+    }
+
+    .contact-first-seccion {
+        width: 100%;
+        height: 130px;
+        border: none;
+        border-bottom: 2px solid white;
+        margin-bottom: 20px;
+    }
+
+    .contact-second-seccion {
+        width: 100%;
+        border: none;
+        border-bottom: 2px solid white;
+        margin-bottom: 20px;
+        border-bottom: 0;
+    }
+
+    .contact-third-seccion {
+        width: 0%;
+    }
+
+    .whatsapp-btn {
+        bottom: 30px;
+        right: 30px;
+    }
+
+    .popup {
+        bottom: 30px;
+        right: 90px;
+    }
+}
